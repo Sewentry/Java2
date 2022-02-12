@@ -4,7 +4,8 @@ public class MainApp {
     public static void main(String[] args) {
         Action[] members = new Action[]{
                 new Cat(50, 100),
-                new Robot(150, 150)
+                new Robot(150, 150),
+                new Human (100,100)
         };
         Action[] barriers = new Action[]{
                 new Trampoline(40),
